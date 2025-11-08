@@ -1,0 +1,56 @@
+import HeroImage from '../assets/hero-image.jpg';
+
+function Herosection() {
+  return (
+    <section className="w-full flex justify-center px-4 py-6">
+      <div className="relative w-full max-w-6xl">
+        <img
+          className="
+            w-full
+            h-[180px]    /* Mobile */
+            sm:h-[260px] /* >640px */
+            md:h-[350px] /* >768px */
+            lg:h-[450px] /* >1024px */
+            xl:h-[550px] /* >1280px */
+            object-cover
+            rounded-xl
+            brightness-75
+          "
+          src={HeroImage}
+          alt="Hero"
+        />
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+          <h1 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold drop-shadow-lg">
+            Bem-vindo ao Tour For Real
+          </h1>
+          <p className="text-white text-sm sm:text-base md:text-lg mt-2 drop-shadow-lg">
+            A melhor experiência turística nas favelas cariocas
+          </p>
+
+          {/* ▶ Botão estilizado */}
+          <a 
+            href="https://wa.me/5521982952256" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="
+              mt-4
+              px-6 py-2
+              bg-white text-black
+              font-medium
+              rounded-lg
+              text-sm sm:text-base
+              shadow-md
+              hover:bg-gray-200
+              transition-all
+              duration-200
+            "
+          >
+            Reserve agora
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Herosection;
