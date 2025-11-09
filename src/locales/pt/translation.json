@@ -1,0 +1,24 @@
+{
+  "welcome": "Bem-vindo ao Tour For Real",
+  "subtitle": "A melhor experiência turística nas favelas cariocas",
+  "reserve": "Reserve agora",
+  "Benefits": "Benefícios do Passeio",
+    "localGuide": "Guia local experiente",
+    "urbanArt": "Arte urbana autêntica",
+    "ViewPoints": "Vistas panorâmicas da favela",
+    "hours": "2h de total imersão",
+  "Included": "O Que Está Incluso",
+    "transportation": "Transporte",
+    "guia": "Guia bilíngue",
+    "visits": "Visita a pontos históricos",
+    "photos": "Paradas para fotos",
+  
+  "carousel": {
+    "title": "Experiências Inesquecíveis",
+    "slideAlt": "Imagem do passeio"
+  },
+  
+
+  "allRightsReserved": "Todos os direitos reservados",
+  "contact": "Fale conosco"
+}

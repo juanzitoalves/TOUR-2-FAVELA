@@ -1,7 +1,10 @@
-import { FaInstagram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaEnvelope, FaTiktok } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 import Logo from "../assets/Logo-sem-fundo.png";
 
 function ContactSection() {
+  const { t } = useTranslation();
+
   return (
     <section
       className="bg-[#141414] min-h-[400px] flex flex-col justify-center items-center rounded-xl 
@@ -17,9 +20,9 @@ function ContactSection() {
         />
       </div>
 
-      {/* Título */}
+      {/* Título traduzido */}
       <h2 className="text-xl sm:text-2xl font-semibold text-white mb-6">
-        Fale conosco
+        {t("contact")}
       </h2>
 
       {/* Ícones */}
@@ -47,13 +50,14 @@ function ContactSection() {
           <FaWhatsapp />
         </a>
 
-        {/* Email */}
+        {/* TikTok */}
         <a
-          href="mailto:contato@seudominio.com"
+          href="https://www.tiktok.com/@tours2rio"
+          target="_blank"
           className="w-12 h-12 rounded-full flex items-center justify-center text-white text-2xl
-                     bg-red-500 transition-transform duration-300 hover:scale-110 hover:bg-red-600 hover:opacity-90"
+                     bg-[#010101] transition-transform duration-300 hover:scale-110 hover:bg-[#010101]-600 hover:opacity-90"
         >
-          <FaEnvelope />
+          <FaTiktok />
         </a>
       </div>
     </section>

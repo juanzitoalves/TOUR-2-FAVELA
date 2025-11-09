@@ -1,9 +1,13 @@
-import HeroImage from '../assets/hero-image.jpg';
+import { useTranslation } from "react-i18next";
+import HeroImage from "../assets/hero-image.jpg";
 
 function Herosection() {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full flex justify-center px-4 py-6">
       <div className="relative w-full max-w-6xl">
+        {/* Imagem principal */}
         <img
           className="
             w-full
@@ -19,18 +23,21 @@ function Herosection() {
           src={HeroImage}
           alt="Hero"
         />
+
+        {/* Texto sobre a imagem */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold drop-shadow-lg">
-            Bem-vindo ao Tour For Real
+            {t("welcome")}
           </h1>
+
           <p className="text-white text-sm sm:text-base md:text-lg mt-2 drop-shadow-lg">
-            A melhor experiência turística nas favelas cariocas
+            {t("subtitle")}
           </p>
 
-          {/* ▶ Botão estilizado */}
-          <a 
-            href="https://wa.me/5521982952256" 
-            target="_blank" 
+          {/* Botão */}
+          <a
+            href="https://wa.me/5521982952256"
+            target="_blank"
             rel="noopener noreferrer"
             className="
               mt-4
@@ -45,7 +52,7 @@ function Herosection() {
               duration-200
             "
           >
-            Reserve agora
+            {t("reserve")}
           </a>
         </div>
       </div>

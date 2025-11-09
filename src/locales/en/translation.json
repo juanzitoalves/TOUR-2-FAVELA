@@ -1,0 +1,21 @@
+{
+  "welcome": "Welcome to Tour For Real",
+  "subtitle": "The best tourist experience in Rio's favelas",
+  "reserve": "Book now",
+  "Benefits": "Tour Benefits",
+    "localGuide": "Experienced local guide",
+    "urbanArt": "Authentic urban art",
+    "ViewPoints": "Panoramic views of the favela",
+    "hours": "2h of full immersion",
+  "Included": "What's Included",
+    "transportation": "Transportation",
+    "guia": "Bilingual guide",
+    "visits": "Visit to historical landmarks",
+    "photos": "Photo stops",
+  "carousel": {
+    "title": "Unforgettable Experiences",
+    "slideAlt": "Tour image"
+  },
+  "allRightsReserved": "All rights reserved",
+  "contact": "Contact us"
+}
