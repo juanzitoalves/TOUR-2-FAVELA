@@ -1,7 +1,9 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap';
 @import "tailwindcss";
 
 body {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Customização das setas */
