@@ -1,10 +1,11 @@
-import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react"
-import tailwindcss from "@tailwindcss/vite"
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // 👈 ativa o Tailwind v4 no Vite
+    tailwindcss(),
   ],
-})
+  base: "/TOUR-2-FAVELA/",
+});
