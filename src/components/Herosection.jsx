@@ -6,22 +6,12 @@ function Herosection() {
 
   return (
     <section className="w-full flex justify-center px-4 py-6">
-      <div className="relative w-full max-w-6xl">
+      <div className="relative w-full max-w-6xl mx-auto">
         {/* Imagem principal */}
         <img
-          className="
-            w-full
-            h-[180px]    /* Mobile */
-            sm:h-[260px] /* >640px */
-            md:h-[350px] /* >768px */
-            lg:h-[450px] /* >1024px */
-            xl:h-[550px] /* >1280px */
-            object-cover
-            rounded-xl
-            brightness-75
-          "
           src={HeroImage}
           alt="Hero"
+          className="w-full h-[180px] sm:h-[260px] md:h-[350px] lg:h-[450px] xl:h-[550px] object-cover rounded-xl brightness-75"
         />
 
         {/* Texto sobre a imagem */}
@@ -39,18 +29,7 @@ function Herosection() {
             href="https://wa.me/5521982952256"
             target="_blank"
             rel="noopener noreferrer"
-            className="
-              mt-4
-              px-6 py-2
-              bg-white text-black
-              font-medium
-              rounded-lg
-              text-sm sm:text-base
-              shadow-md
-              hover:bg-gray-200
-              transition-all
-              duration-200
-            "
+            className="mt-4 px-6 py-2 bg-white text-black font-medium rounded-lg text-sm sm:text-base shadow-md hover:bg-gray-200 transition duration-200"
           >
             {t("reserve")}
           </a>

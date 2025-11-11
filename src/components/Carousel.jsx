@@ -1,42 +1,46 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import { Pagination, Autoplay, Navigation } from 'swiper/modules';
-import { useTranslation } from 'react-i18next';
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
+import { useTranslation } from "react-i18next";
 
-import Carousel1 from '../assets/hero-image.jpg';
-import Carousel2 from '../assets/hero-image.jpg';
-import Carousel3 from '../assets/hero-image.jpg';
+import Carousel1 from "../assets/hero-image.jpg";
+import Carousel2 from "../assets/hero-image.jpg";
+import Carousel3 from "../assets/hero-image.jpg";
 
-const images = [Carousel1, Carousel2, Carousel3];
+const images = [Carousel1, Carousel2, Carousel3, Carousel1, Carousel2, Carousel3];
 
 function Carousel() {
   const { t } = useTranslation();
 
   return (
-    <section className="w-full max-w-6xl mx-auto py-12 px-4 sm:px-6">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-white mb-10">
-        {t('carousel.title')}
+    <section className="w-full max-w-6xl mx-auto py-12 px-4">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-10">
+        {t("carousel.title")}
       </h2>
 
       <Swiper
         modules={[Pagination, Autoplay, Navigation]}
         pagination={{ clickable: true }}
-        navigation={true}
+        navigation
         autoplay={{ delay: 3000, disableOnInteraction: false }}
-        loop={true}
-        spaceBetween={30}
-        slidesPerView={1}
-        className="rounded-lg overflow-hidden shadow-2xl custom-swiper"
+        loop
+        spaceBetween={20}
+        breakpoints={{
+          0: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+        className="custom-swiper rounded-lg shadow-2xl"
       >
         {images.map((item, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="flex justify-center">
             <img
               src={item}
-              alt={`${t('carousel.slideAlt')} ${index + 1}`}
-              className="mx-auto w-[312px] h-[539px] object-cover object-center rounded-lg"
+              alt={`${t("carousel.slideAlt")} ${index + 1}`}
+              className="w-full h-[400px] object-cover rounded-xl"
             />
           </SwiperSlide>
         ))}

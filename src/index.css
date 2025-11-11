@@ -15,8 +15,7 @@ body {
   padding: 0;
   background: none; 
   border-radius: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(50%);
   transition: none; 
 }
 

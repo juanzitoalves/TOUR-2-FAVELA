@@ -21,27 +21,23 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-[#1A1A1A] text-white py-2 px-6 flex items-center justify-between relative">
+    <nav className="bg-[#1A1A1A] text-white py-2 px-6 flex items-center justify-between">
       {/* Logo */}
       <img src={Logo} alt="Logo Tour2Rio" className="h-16" />
 
       {/* Parte direita */}
-      <div className="flex items-center space-x-4 relative">
+      <div className="flex items-center space-x-4">
         {/* Seletor de idioma */}
         <div className="relative">
           <button
             onClick={() => setOpen(!open)}
             className="flex items-center border border-white/30 px-3 py-1 rounded-md text-sm 
-                       hover:bg-white hover:text-black transition-all duration-200"
+                       hover:bg-white hover:text-black transition duration-200"
           >
             <ReactCountryFlag
               countryCode={currentLang.countryCode}
               svg
-              style={{
-                width: "1.3em",
-                height: "1.3em",
-                marginRight: "6px",
-              }}
+              className="w-5 h-5 mr-2"
             />
             <span className="font-medium uppercase">{currentLang.code}</span>
           </button>
@@ -52,19 +48,14 @@ function Navbar() {
                 <button
                   key={lang.code}
                   onClick={() => changeLanguage(lang.code)}
-                  className={`flex items-center px-4 py-2 text-sm w-full text-left hover:bg-white hover:text-black transition
-                    ${
-                      i18n.language === lang.code ? "bg-white/10" : ""
-                    }`}
+                  className={`flex items-center px-4 py-2 text-sm w-full text-left hover:bg-white hover:text-black transition duration-200 ${
+                    i18n.language === lang.code ? "bg-white/10" : ""
+                  }`}
                 >
                   <ReactCountryFlag
                     countryCode={lang.countryCode}
                     svg
-                    style={{
-                      width: "1.3em",
-                      height: "1.3em",
-                      marginRight: "8px",
-                    }}
+                    className="w-5 h-5 mr-2"
                   />
                   {lang.name}
                 </button>
@@ -79,7 +70,7 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-white text-black px-4 py-1 rounded-md text-sm font-medium hover:bg-gray-300 transition-all duration-200">
+          <button className="bg-white text-black px-4 py-1 rounded-md text-sm font-medium hover:bg-gray-300 transition duration-200">
             {t("reserve")}
           </button>
         </a>
