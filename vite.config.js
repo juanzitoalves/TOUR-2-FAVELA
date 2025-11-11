@@ -7,5 +7,4 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/TOUR-2-FAVELA/",
 })
