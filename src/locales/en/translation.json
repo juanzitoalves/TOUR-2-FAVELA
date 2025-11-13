@@ -1,21 +1,34 @@
 {
-  "welcome": "Welcome to Tour For Real",
+  "welcome": "Welcome to Tour to Favela",
   "subtitle": "The best tourist experience in Rio's favelas",
   "reserve": "Book now",
+
   "Benefits": "Tour Benefits",
-    "localGuide": "Experienced local guide",
-    "urbanArt": "Authentic urban art",
-    "ViewPoints": "Panoramic views of the favela",
-    "hours": "2h of full immersion",
+  "localGuide": "Experienced local guide",
+  "urbanArt": "Authentic urban art",
+  "ViewPoints": "Panoramic views of the favela",
+  "hours": "2h of full immersion",
+
   "Included": "What's Included",
-    "transportation": "Transportation",
-    "guia": "Bilingual guide",
-    "visits": "Visit to historical landmarks",
-    "photos": "Photo stops",
+  "transportation": "Transportation",
+  "guia": "Bilingual guide",
+  "visits": "Visit to historical landmarks",
+  "photos": "Photo stops",
+
   "carousel": {
     "title": "Unforgettable Experiences",
     "slideAlt": "Tour image"
   },
-  "allRightsReserved": "All rights reserved",
-  "contact": "Contact us"
+
+  "about": {
+    "title": "About Us",
+    "paragraph1": "Tour to Favela is an agency created by residents of Rocinha, with the purpose of showing our neighborhood as it truly is — vibrant, creative, and full of inspiring stories.",
+    "paragraph2": "More than just a tour, we offer immersive experiences that bring visitors closer to the local culture, revealing the daily life, the people, and the energy that make Rocinha one of the most unique places in Rio de Janeiro.",
+    "paragraph3": "Our main goal is to break stereotypes and value the favela, showing its human, authentic, and welcoming side. The name 'Tour to Favela' reflects this mission: 'to' means 'for the favela', representing our commitment to strengthen and empower the community.",
+    "paragraph4": "At the same time, the name also plays with the idea of 'Tour 2 Favela', as we are two local guides passionate about telling our own story.",
+    "paragraph5": "At Tour to Favela, we believe every visit is an exchange — between cultures, perspectives, and realities — and that getting to know Rocinha is to experience the true spirit of Rio: diversity, resilience, and joy."
+  },
+
+  "contact": "Contact us",
+  "allRightsReserved": "All rights reserved"
 }

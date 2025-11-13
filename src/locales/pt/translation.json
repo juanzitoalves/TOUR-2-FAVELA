@@ -1,24 +1,34 @@
 {
-  "welcome": "Bem-vindo ao Tour For Real",
+  "welcome": "Bem-vindo ao Tour to Favela",
   "subtitle": "A melhor experiência turística nas favelas cariocas",
   "reserve": "Reserve agora",
+
   "Benefits": "Benefícios do Passeio",
-    "localGuide": "Guia local experiente",
-    "urbanArt": "Arte urbana autêntica",
-    "ViewPoints": "Vistas panorâmicas da favela",
-    "hours": "2h de total imersão",
+  "localGuide": "Guia local experiente",
+  "urbanArt": "Arte urbana autêntica",
+  "ViewPoints": "Vistas panorâmicas da favela",
+  "hours": "2h de total imersão",
+
   "Included": "O Que Está Incluso",
-    "transportation": "Transporte",
-    "guia": "Guia bilíngue",
-    "visits": "Visita a pontos históricos",
-    "photos": "Paradas para fotos",
-  
+  "transportation": "Transporte",
+  "guia": "Guia bilíngue",
+  "visits": "Visita a pontos históricos",
+  "photos": "Paradas para fotos",
+
   "carousel": {
     "title": "Experiências Inesquecíveis",
     "slideAlt": "Imagem do passeio"
   },
-  
 
-  "allRightsReserved": "Todos os direitos reservados",
-  "contact": "Fale conosco"
+  "about": {
+    "title": "Sobre Nós",
+    "paragraph1": "A Tour to Favela é uma agência criada por moradores da favela da Rocinha, com o propósito de mostrar o nosso bairro como ele realmente é — vivo, criativo e cheio de histórias inspiradoras.",
+    "paragraph2": "Mais do que um passeio, oferecemos experiências imersivas que aproximam visitantes da cultura local, revelando o dia a dia, as pessoas e a energia que tornam a Rocinha um dos lugares mais únicos do Rio de Janeiro.",
+    "paragraph3": "Nosso maior objetivo é quebrar preconceitos e valorizar a favela, mostrando seu lado humano, autêntico e acolhedor. O nome “Tour to Favela” reflete essa missão: “to” significa para a favela, representando nosso compromisso em fortalecer e favorecer a comunidade.",
+    "paragraph4": "Ao mesmo tempo, o nome também brinca com a ideia de “Tour 2 Favela”, já que somos dois guias locais, apaixonados por contar a nossa própria história.",
+    "paragraph5": "Na Tour to Favela, acreditamos que cada visita é uma troca — entre culturas, olhares e realidades — e que conhecer a Rocinha é entender de perto o verdadeiro espírito do Rio: diversidade, resistência e alegria."
+  },
+
+  "contact": "Fale conosco",
+  "allRightsReserved": "Todos os direitos reservados"
 }
