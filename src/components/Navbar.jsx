@@ -10,6 +10,9 @@ function Navbar() {
   const languages = [
     { code: "pt", name: "PT", countryCode: "BR" },
     { code: "en", name: "EN", countryCode: "US" },
+    { code: "es", name: "ES", countryCode: "ES" },
+    { code: "fr", name: "FR", countryCode: "FR" },
+    { code: "it", name: "IT", countryCode: "IT" }
   ];
 
   const currentLang =
@@ -22,11 +25,13 @@ function Navbar() {
 
   return (
     <nav className="bg-[#1A1A1A] text-white py-2 px-6 flex items-center justify-between">
+      
       {/* Logo */}
       <img src={Logo} alt="Logo Tour2Rio" className="h-16" />
 
       {/* Parte direita */}
       <div className="flex items-center space-x-4">
+
         {/* Seletor de idioma */}
         <div className="relative">
           <button
@@ -48,9 +53,10 @@ function Navbar() {
                 <button
                   key={lang.code}
                   onClick={() => changeLanguage(lang.code)}
-                  className={`flex items-center px-4 py-2 text-sm w-full text-left hover:bg-white hover:text-black transition duration-200 ${
-                    i18n.language === lang.code ? "bg-white/10" : ""
-                  }`}
+                  className={`flex items-center px-4 py-2 text-sm w-full text-left 
+                             hover:bg-white hover:text-black transition duration-200 ${
+                               i18n.language === lang.code ? "bg-white/10" : ""
+                             }`}
                 >
                   <ReactCountryFlag
                     countryCode={lang.countryCode}

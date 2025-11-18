@@ -1,0 +1,34 @@
+{
+  "welcome": "Bienvenue à Tour to Favela",
+  "subtitle": "La meilleure expérience touristique dans les favelas de Rio",
+  "reserve": "Réservez maintenant",
+
+  "Benefits": "Avantages de la visite",
+  "localGuide": "Guide local expérimenté",
+  "urbanArt": "Art urbain authentique",
+  "ViewPoints": "Points de vue panoramiques",
+  "hours": "2h d’immersion totale",
+
+  "Included": "Ce Qui Est Inclus",
+  "transportation": "Transport",
+  "guia": "Guide bilingue",
+  "visits": "Visite de lieux historiques",
+  "photos": "Arrêts pour photos",
+
+  "carousel": {
+    "title": "Expériences Inoubliables",
+    "slideAlt": "Image de la visite"
+  },
+
+  "about": {
+    "title": "À Propos de Nous",
+    "paragraph1": "Tour to Favela est une agence créée par des habitants de la favela de Rocinha, afin de montrer notre quartier tel qu’il est réellement — vivant, créatif et rempli d’histoires inspirantes.",
+    "paragraph2": "Plus qu’une simple visite, nous offrons des expériences immersives qui rapprochent les voyageurs de la culture locale, révélant le quotidien, les personnes et l’énergie qui font de Rocinha l’un des endroits les plus uniques de Rio.",
+    "paragraph3": "Notre principal objectif est de briser les préjugés et de valoriser la favela, en montrant son côté humain, authentique et accueillant. Le nom “Tour to Favela” reflète cette mission : “to” signifie pour la favela, représentant notre engagement à renforcer et soutenir la communauté.",
+    "paragraph4": "En même temps, le nom joue aussi avec l’idée de “Tour 2 Favela”, car nous sommes deux guides locaux passionnés par le fait de raconter notre propre histoire.",
+    "paragraph5": "Chez Tour to Favela, nous croyons que chaque visite est un échange — entre cultures, regards et réalités — et que découvrir Rocinha, c’est comprendre de près le véritable esprit de Rio : diversité, résistance et joie."
+  },
+
+  "contact": "Contactez-nous",
+  "allRightsReserved": "Tous droits réservés"
+}

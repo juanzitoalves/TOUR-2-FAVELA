@@ -17,7 +17,7 @@ function ContactSection() {
         className="w-20 h-20 sm:w-24 sm:h-24 object-contain mb-4"
       />
 
-      {/* Título traduzido */}
+      {/* Título */}
       <h2 className="text-2xl font-semibold text-white mb-6">
         {t("contact")}
       </h2>

@@ -1,24 +1,53 @@
 import { useTranslation } from "react-i18next";
+import AboutImage from "../assets/about-image.jpg";
 
 function AboutSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex justify-center px-4 sm:px-6 lg:px-8 mt-10 sm:mt-16">
-      <section className="w-full max-w-6xl bg-[#141414] text-gray-200 py-12 sm:py-16 px-6 sm:px-10 rounded-2xl shadow-lg">
-        <h2 className="text-3xl sm:text-5xl font-extrabold mb-8 sm:mb-10 text-white text-center drop-shadow-lg">
-          {t("about.title")}
-        </h2>
+    <section className="w-full flex justify-center px-6 lg:px-10 mt-20">
+      <div className="w-full max-w-[1200px]">
 
-        <div className="space-y-5 sm:space-y-6 text-base sm:text-lg leading-relaxed text-gray-300 text-center">
-          <p>{t("about.paragraph1")}</p>
-          <p>{t("about.paragraph2")}</p>
-          <p>{t("about.paragraph3")}</p>
-          <p>{t("about.paragraph4")}</p>
-          <p className="text-gray-200">{t("about.paragraph5")}</p>
+        {/* Heading */}
+        <div className="text-center mb-14">
+          <h2 className="text-4xl sm:text-5xl font-semibold text-white tracking-tight">
+            {t("about.title")}
+          </h2>
+          <div className="w-16 h-1 bg-white/40 mx-auto mt-4 rounded-full" />
         </div>
-      </section>
-    </div>
+
+        {/* Conteúdo */}
+        <div className="flex flex-col lg:flex-row items-start gap-12">
+
+          {/* Imagem */}
+          <div className="w-full lg:w-[440px] rounded-2xl overflow-hidden shadow-2xl">
+            <img
+              src={AboutImage}
+              alt="About"
+              className="w-full h-[280px] sm:h-[360px] lg:h-[500px] object-cover"
+            />
+          </div>
+
+          {/* Texto */}
+          <div className="flex-1 text-gray-300 text-lg leading-relaxed space-y-6">
+
+            <p className="opacity-90">{t("about.paragraph1")}</p>
+            <p className="opacity-90">{t("about.paragraph2")}</p>
+
+            <div className="border-l-4 border-white/30 pl-4 italic opacity-80">
+              {t("about.paragraph3")}
+            </div>
+
+            <p className="opacity-90">{t("about.paragraph4")}</p>
+
+            <p className="opacity-90 font-medium text-xl mt-6">
+              {t("about.paragraph5")}
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

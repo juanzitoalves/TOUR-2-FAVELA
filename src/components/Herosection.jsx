@@ -5,8 +5,9 @@ function Herosection() {
   const { t } = useTranslation();
 
   return (
-    <section className="w-full flex justify-center px-4 py-6">
-      <div className="relative w-full max-w-6xl mx-auto">
+    <section className="w-full flex justify-center px-4 sm:px-6 lg:px-10 py-6">
+      <div className="relative w-full max-w-[1600px] mx-auto">
+
         {/* Imagem principal */}
         <img
           src={HeroImage}
@@ -23,8 +24,7 @@ function Herosection() {
           <p className="text-white text-sm sm:text-base md:text-lg mt-2 drop-shadow-lg">
             {t("subtitle")}
           </p>
-
-          {/* Botão */}
+          
           <a
             href="https://wa.me/5521982952256"
             target="_blank"
