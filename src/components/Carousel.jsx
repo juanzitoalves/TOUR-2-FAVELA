@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 import Carousel1 from "../assets/hero-image.jpg";
 import Carousel2 from "../assets/DSCN3096.JPG";
-import Carousel3 from "../assets/DSCN3007.jpg";
+import Carousel3 from "../assets/DSCN3007.JPG";
 
 const images = [Carousel1, Carousel2, Carousel3, Carousel1, Carousel2, Carousel3];
 
