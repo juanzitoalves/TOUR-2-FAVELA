@@ -3,32 +3,60 @@
   "subtitle": "La meilleure expérience touristique dans les favelas de Rio",
   "reserve": "Réservez maintenant",
 
-  "Benefits": "Avantages de la visite",
+  "Benefits": "Avantages du tour",
   "localGuide": "Guide local expérimenté",
   "urbanArt": "Art urbain authentique",
-  "ViewPoints": "Points de vue panoramiques",
+  "ViewPoints": "Vues panoramiques de la favela",
   "hours": "2h d’immersion totale",
 
-  "Included": "Ce Qui Est Inclus",
+  "Included": "Ce qui est inclus",
   "transportation": "Transport",
   "guia": "Guide bilingue",
-  "visits": "Visite de lieux historiques",
+  "visits": "Visites de sites historiques",
   "photos": "Arrêts pour photos",
 
   "carousel": {
-    "title": "Expériences Inoubliables",
-    "slideAlt": "Image de la visite"
+    "title": "Expériences inoubliables",
+    "slideAlt": "Image du tour"
   },
 
   "about": {
-    "title": "À Propos de Nous",
-    "paragraph1": "Tour to Favela est une agence créée par des habitants de la favela de Rocinha, afin de montrer notre quartier tel qu’il est réellement — vivant, créatif et rempli d’histoires inspirantes.",
-    "paragraph2": "Plus qu’une simple visite, nous offrons des expériences immersives qui rapprochent les voyageurs de la culture locale, révélant le quotidien, les personnes et l’énergie qui font de Rocinha l’un des endroits les plus uniques de Rio.",
-    "paragraph3": "Notre principal objectif est de briser les préjugés et de valoriser la favela, en montrant son côté humain, authentique et accueillant. Le nom “Tour to Favela” reflète cette mission : “to” signifie pour la favela, représentant notre engagement à renforcer et soutenir la communauté.",
-    "paragraph4": "En même temps, le nom joue aussi avec l’idée de “Tour 2 Favela”, car nous sommes deux guides locaux passionnés par le fait de raconter notre propre histoire.",
-    "paragraph5": "Chez Tour to Favela, nous croyons que chaque visite est un échange — entre cultures, regards et réalités — et que découvrir Rocinha, c’est comprendre de près le véritable esprit de Rio : diversité, résistance et joie."
+    "title": "À propos de nous",
+    "paragraph1": "Tour to Favela est une agence créée par des habitants de Rocinha, avec pour mission de montrer notre quartier tel qu’il est réellement — vivant, créatif et rempli d’histoires inspirantes.",
+    "paragraph2": "Plus qu’une visite, nous offrons des expériences immersives qui rapprochent les visiteurs de la culture locale, révélant le quotidien, les personnes et l’énergie qui rendent Rocinha unique à Rio de Janeiro.",
+    "paragraph3": "Notre objectif principal est de briser les préjugés et de valoriser la favela en montrant son côté humain, authentique et accueillant. Le nom « Tour to Favela » reflète cette mission : « to » signifie pour la favela, représentant notre engagement envers la communauté.",
+    "paragraph4": "Le nom joue aussi avec « Tour 2 Favela », car nous sommes deux guides locaux passionnés par le fait de raconter notre propre histoire.",
+    "paragraph5": "Chez Tour to Favela, nous croyons que chaque visite est un échange — entre cultures, regards et réalités — et que découvrir Rocinha, c’est comprendre l’esprit véritable de Rio : diversité, résistance et joie."
   },
 
   "contact": "Contactez-nous",
-  "allRightsReserved": "Tous droits réservés"
+  "allRightsReserved": "Tous droits réservés",
+
+  "immersive": {
+    "title": "Activités immersives",
+
+    "tour": {
+      "title": "Tours guidés",
+      "description": "Promenades dans la communauté accompagnées par des habitants locaux."
+    },
+
+    "workshops": {
+      "title": "Ateliers culturels",
+      "description": "Musique, danse, graffiti, cuisine et plus encore avec des artistes locaux."
+    },
+
+    "food": {
+      "title": "Expériences gastronomiques",
+      "description": "Goûtez des plats typiques préparés par des habitants — authentiques et inoubliables."
+    },
+
+    "social": {
+      "title": "Projets sociaux",
+      "description": "Découvrez de vraies initiatives communautaires — avec photos et vidéos montrant l’impact."
+    }
+  },
+
+  "tripadvisor": {
+    "floating": "Voir nos avis sur TripAdvisor"
+  }
 }

@@ -18,8 +18,8 @@ i18n
       fr: { translation: fr },
       it: { translation: it },
     },
-    lng: "pt", // idioma padrão
-    fallbackLng: "pt",
+    lng: "en", // idioma padrão
+    fallbackLng: "en",
     interpolation: { escapeValue: false },
   });
 

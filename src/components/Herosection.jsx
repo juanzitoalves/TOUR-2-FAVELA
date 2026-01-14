@@ -6,7 +6,7 @@ function Herosection() {
 
   return (
     <section className="w-full flex justify-center px-4 sm:px-6 lg:px-10 py-6">
-      <div className="relative w-full max-w-[1600px] mx-auto">
+      <div className="relative w-full max-w-[1900px] mx-auto">
 
         {/* Imagem principal */}
         <img

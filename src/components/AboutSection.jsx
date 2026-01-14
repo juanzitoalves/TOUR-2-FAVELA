@@ -6,7 +6,7 @@ function AboutSection() {
 
   return (
     <section className="w-full flex justify-center px-6 lg:px-10 mt-20">
-      <div className="w-full max-w-[1200px]">
+      <div className="w-full max-w-[1700px]">
 
         {/* Heading */}
         <div className="text-center mb-14">

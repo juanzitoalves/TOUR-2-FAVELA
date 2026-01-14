@@ -8,7 +8,7 @@ function ContactSection() {
   return (
     <section
       className="bg-[#141414] min-h-[400px] flex flex-col justify-center items-center rounded-xl 
-                 w-[90%] md:w-[83%] lg:w-[83%] mx-auto text-center my-16 shadow-lg py-10"
+                 w-[92%] md:w-[96%] lg:w-[96%] mx-auto text-center my-16 shadow-lg py-10"
     >
       {/* Logo */}
       <img
