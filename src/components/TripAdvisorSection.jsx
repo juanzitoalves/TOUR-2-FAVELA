@@ -66,9 +66,6 @@ export default function TripAdvisorFloatingButton() {
       <span className="hidden sm:inline text-sm font-semibold whitespace-nowrap">
         {t("tripadvisor.floating")}
       </span>
-
-      {/* External icon only on desktop */}
-      <ExternalLink className="hidden sm:block w-4 h-4" />
     </a>
   );
 }
